@@ -1,1 +1,1 @@
-This projects are a learning path.
+This projects are learning path.
