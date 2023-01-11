@@ -1,1 +1,1 @@
-# html_workplace
+This projects are a learning path.
