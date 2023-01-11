@@ -1,0 +1,85 @@
+.mainSection{
+    background-image: url('http://traversymedia.com/downloads/assets/beachshowcase.jpg');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    height: 100vh;
+    color: #926239;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20%;
+    margin: 0;
+}
+p{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 1.5%;
+    margin: 0;
+}
+.button{
+    font-size: 22px;
+    color: #926239;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: #945721 1px solid;
+    border-radius: 10px;
+}
+.button:hover{
+    color: #fff;
+    background: #926239;
+    border: #fff 1px solid;
+}
+.paragraphs{
+    display: inline-flex;
+}
+.firstCloumn{
+    width: 100%;
+    display: grid;
+}
+.paragraf1-1{
+    background: #926239;
+    color: rgb(226, 210, 210);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5%;
+    margin: 0 .5% .5% .5%;
+}
+.paragraf1-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #926239;
+    padding: 5%;
+    margin: 0 .5% .5% .5%;
+
+}
+
+.secondCloumn{
+    width: 100%;
+    display: grid;
+}
+.paragraf2-1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #926239;
+    height: 30%;
+    padding: 5%;
+    margin: 4% .5% .5% .5%;
+}
+.paragraf2-2{
+    text-align: center;
+    background: #926239;
+    color: rgb(226, 210, 210);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 30%;
+    padding: 5.5% 5% 5.5% 5%;
+    margin: 0% .5% .5% .5%;
+}
+.paragraf2-3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #926239;
+    height: 30%;
+    padding: 5%;
+    margin: 4% .5% .5% .5%;
+}
