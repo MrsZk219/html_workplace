@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    overflow-x: hidden;
+}
+main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* HEADER-DESIGN-START */
+
+header{
+    width: 100%;
+    margin: 20px 30px;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all ease 0.8s;
+    position: fixed;
+    top: 0;
+    left: -1.5%;
+    z-index: 9999;
+}
+.logo img{
+    height: 10%;
+    max-width: 100px;
+    z-index: 999;
+}
+header ul li{
+    display: inline-block;
+    color: #000;
+    margin: 0 30px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+header:hover{
+    background: rgb(255, 255, 255);
+    /* opacity: 75%; */
+}
+header:hover a{
+    color: #000;
+}
+.subelist{
+    position: absolute;
+    left: 41%;
+    top: 70px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 8px 5px;
+    border-radius: 5px;
+    display: none;
+}
+.subelist ul li{
+    width: 100%;
+    margin-bottom: 5px;
+    display: block;
+}
+
+header ul li:hover .subelist{
+    display: block;
+    width: 13%;
+}
+
+/* HEADER-DESIGN-END */
+
+.content{
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.content .item{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    transition: all ease 0.5s;
+}
+.content .item img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.content .item:hover{
+    width: 120%;
+}
+.content .item .text{
+    position: absolute;
+    left: 10px;
+    bottom: -50px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding: 50px, 50px, 100px;
+    display: flex;
+    align-items: flex-end;
+    opacity: 0;
+}
+.content .item .text:hover{
+    opacity: 100%;
+    bottom: 40px;
+    transition: all ease 0.8s;
+}
